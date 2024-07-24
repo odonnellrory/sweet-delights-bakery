@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Delights Bakery - Fresh, Delicious Treats</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header>
+        <h1>Sweet Delights Bakery</h1>
+        <nav>
+            <h2 id="main-menu">Main Menu</h2>
+            <ul aria-labelledby="main-menu">
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#products">Our Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="dark-mode-toggle" aria-label="Toggle dark mode">
+            <span aria-hidden="true">🌓</span>
+        </button>
+    </header>
+
+    <main id="main-content">
+        <section id="about" class="about-section">
+            <h2>About Us</h2>
+            <article class="about-content">
+                <figure class="image-container">
+                    <img src="https://images.pexels.com/photos/1995010/pexels-photo-1995010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Various pastries and baked goods displayed in a bakery showcase" class="bakery-image">
+                    <figcaption>Our quaint little bakery</figcaption>
+                </figure>
+                <aside class="about-text">
+                    <p>Sweet Delights Bakery has been serving our community with fresh, delicious treats since 1995. Our passion for baking and commitment to quality ingredients make every bite a joyful experience.</p>
+                    <p>From artisanal breads to custom cakes, each item is crafted with care and expertise. Visit us to indulge in the sweet aroma and taste of our freshly baked goods!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a elit lacinia, placerat risus eget, finibus ligula. Integer pretium tincidunt sagittis. Sed quis mauris tortor. Etiam egestas metus sit amet feugiat finibus. Nunc fermentum augue eget porttitor rutrum. Donec sit amet commodo nibh. Quisque sed tincidunt felis. Aliquam sagittis tincidunt dictum. Etiam bibendum quam tellus, non vulputate ante tincidunt eu. Morbi et lorem ac metus varius blandit sit amet ut mauris. Ut fermentum lobortis dui. Phasellus blandit enim vitae justo tincidunt, vitae tempor neque tempus. Nam sit amet semper elit. Nam molestie massa in molestie luctus. Sed vel justo interdum, vestibulum metus ac, cursus enim. Vivamus accumsan placerat ligula a fringilla. Cras placerat nisl ac metus pharetra, ut interdum sem pharetra. In rhoncus pharetra enim, at luctus massa tincidunt sed. Quisque vitae molestie libero. Suspendisse dapibus finibus turpis, non dapibus magna porta eget. Nunc nec maximus metus. Donec convallis posuere rhoncus. Donec lacinia, lacus congue luctus vestibulum, erat lacus congue quam, a pretium velit mauris vel lacus. Sed quis nulla hendrerit, luctus velit et, molestie sapien. Donec et tortor pellentesque felis faucibus pretium nec eu ligula. Nam ac justo id diam pulvinar dapibus id nec nunc. Praesent semper libero eu lacus gravida feugiat. Suspendisse potenti. Donec ipsum libero, finibus vitae dolor in, posuere semper felis. Aenean commodo commodo commodo. Maecenas nec rhoncus tortor, a luctus erat.</p>
+                </aside>
+            </article>
+        </section>
+
+        <section id="products">
+            <h2>Our Products</h2>
+            <ul class="product-list" role="list">
+                <li class="no-bullet">Artisanal Breads</li>
+                <li>Custom Cakes</li>
+                <li>Cupcakes</li>
+                <li>Cookies</li>
+                <li>Pastries</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+    <h2>Contact Us</h2>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Contact Information</legend>
+            <p>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required aria-required="true">
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required aria-required="true">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Your Message</legend>
+            <p>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required aria-required="true"></textarea>
+            </p>
+        </fieldset>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+    <footer>
+        <p>&copy; 2024 Rory O'Donnell. All rights reserved.</p>
+        <p>Follow me on <a href="odonnellrory.github.io" target="_blank" rel="noopener noreferrer">GitHub</a> for more!</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
